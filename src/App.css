@@ -2,37 +2,120 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.mainpage{
+  box-sizing: border-box;
+}
+
+.header{
+  height:100px;
+  background-color: bisque;
+}
+
+.navbar{
+  background-color: #4e73df; /* #224abe */
+  padding-right: 0;
+  
+}
+
+.content{
+  background-color:rgb(213, 25, 25);
+  word-wrap: break-word;
+  height: 590px;
+}
+
+
+ul li a{
+  color:white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  opacity: 0.5;
+  
+}
+
+
+ul li a i{
+  margin-right: 15px;
+}
+
+
+ul li a:hover{
+  color:white;
+}
+
+
+
+ul li{
+  text-align: left;
+  
+}
+
+a:hover{
+  opacity: 1;
+}
+
+.interface , .addon{
+  display: block;
   pointer-events: none;
+  padding: 0px;
+  margin-left: 15px;
+  font-size: 12px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ruler{
+ border:1px solid white;
+ display: block;
+ margin-right: 10px;
+ margin-left: 10px;
+ opacity: 0.3;
+ padding-right: 0;
+ 
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row>*{ /* to overwrite the bootstrap padding on navbar and content*/
+ padding: 0 !important;
+}
+
+li a i , li a span{
+  color:white;
+}
+
+/*
+.header{
+  height:100px;
+  background-color: bisque;
+}
+
+
+
+
+
+.navbar{
+  
+  background-color: #0d6efd;
+  
+  
+}
+
+.content{
+  background-color:red;
+  height:800px;
+  
+}
+
+.sidebar{
+  position: absolute;
+  top:0px;
+  background-color: chartreuse;
+  margin-top: 0px;
+  height:800px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-content: stretch; 
+} 
 
-.App-link {
-  color: #61dafb;
+.admin{
+  position: relative;
+  top:20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+*/
